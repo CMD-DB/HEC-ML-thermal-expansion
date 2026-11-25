@@ -1,0 +1,11 @@
+{
+  "seed": 20261103,
+  "bootstrap_repeats": 40,
+  "monte_carlo_samples": 2000,
+  "svr_grid": {
+    "svr__C": [10, 100, 1000, 10000, 100000],
+    "svr__gamma": [0.001, 0.01, 0.1],
+    "svr__epsilon": [0.01, 0.1]
+  },
+  "jobs": 4
+}
